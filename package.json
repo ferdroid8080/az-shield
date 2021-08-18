@@ -1,0 +1,30 @@
+{
+  "name": "az-shield-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdroid8080/az-shield.git"
+  },
+  "keywords": [],
+  "author": "Ferdroid8080 <andresf@ferudinato.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferdroid8080/az-shield/issues"
+  },
+  "homepage": "https://github.com/ferdroid8080/az-shield#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "discord.js": "^13.2.0-dev.1629202082.9a833b1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  }
+}
